@@ -42,19 +42,19 @@ const App: React.FC = () => {
           </thead>
           <tbody>
             <tr>
-              <td style={{ border: '1px solid black', padding: '8px' }}>Mean</td>
+              <td style={{ border: '1px solid black', padding: '8px' }}>Flavanoids Mean</td>
               {Object.values(flavanoidsStats).map((stats, index) => (
                 <td key={index} style={{ border: '1px solid black', padding: '8px' }}>{isNaN(stats.Mean) ? 'N/A' : stats.Mean}</td>
               ))}
             </tr>
             <tr>
-              <td style={{ border: '1px solid black', padding: '8px' }}>Median</td>
+              <td style={{ border: '1px solid black', padding: '8px' }}>Flavanoids Median</td>
               {Object.values(flavanoidsStats).map((stats, index) => (
                 <td key={index} style={{ border: '1px solid black', padding: '8px' }}>{isNaN(stats.Median) ? 'N/A' : stats.Median}</td>
               ))}
             </tr>
             <tr>
-              <td style={{ border: '1px solid black', padding: '8px' }}>Mode</td>
+              <td style={{ border: '1px solid black', padding: '8px' }}>Flavanoids Mode</td>
               {Object.values(flavanoidsStats).map((stats, index) => (
                 <td key={index} style={{ border: '1px solid black', padding: '8px' }}>{isNaN(stats.Mode) ? 'N/A' : stats.Mode}</td>
               ))}
@@ -74,19 +74,19 @@ const App: React.FC = () => {
           </thead>
           <tbody>
             <tr>
-              <td style={{ border: '1px solid black', padding: '8px' }}>Mean</td>
+              <td style={{ border: '1px solid black', padding: '8px' }}>Gamma Mean</td>
               {Object.values(gammaStats).map((stats, index) => (
                 <td key={index} style={{ border: '1px solid black', padding: '8px' }}>{isNaN(stats.Mean) ? 'N/A' : stats.Mean}</td>
               ))}
             </tr>
             <tr>
-              <td style={{ border: '1px solid black', padding: '8px' }}>Median</td>
+              <td style={{ border: '1px solid black', padding: '8px' }}>Gamma Median</td>
               {Object.values(gammaStats).map((stats, index) => (
                 <td key={index} style={{ border: '1px solid black', padding: '8px' }}>{isNaN(stats.Median) ? 'N/A' : stats.Median}</td>
               ))}
             </tr>
             <tr>
-              <td style={{ border: '1px solid black', padding: '8px' }}>Mode</td>
+              <td style={{ border: '1px solid black', padding: '8px' }}>Gamma Mode</td>
               {Object.values(gammaStats).map((stats, index) => (
                 <td key={index} style={{ border: '1px solid black', padding: '8px' }}>{isNaN(stats.Mode) ? 'N/A' : stats.Mode}</td>
               ))}
