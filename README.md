@@ -9,13 +9,13 @@ git clone https://github.com/agdgithub/Data-Analysis-Task.git
 2.Navigate to the project directory:
 
 ```
-cd wine-data-statistics
+cd Data-Analysis-Task
 ```
 
 2.Navigate to the project directory:
 
 ```
-cd wine-data-statistics
+cd Data-Analysis-Task
 ```
 
 3.Install dependencies:
